@@ -46,8 +46,8 @@ public class Main {
                     arrDiagonal[i][j] = 0;
                 } else if (i > j) {
                     arrDiagonal[i][j] = 0;
-                } else if  (j == i || i == ( j2 - 1)) {
-                    arrDiagonal[i][j] = 1;
+               // } else if  (j == i || i == ( j2 - 1)) {  Не огу онять как другую диагональ сделать
+                //    arrDiagonal[i][j] = 1;
                 } else {
                     arrDiagonal[i][j] = 1 ;
                 }
